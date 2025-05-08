@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+*~
+
+# Configuración de editores
+.vscode/
+.idea/
+*.code-workspace
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+
+# Node.js (si llegas a usarlo)
+node_modules/
+npm-debug.log
+dist/
+.env
