@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web - Empresa A</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <!-- Explicación:
+HTML:
+
+La estructura básica de la página incluye un encabezado con el nombre de la empresa y un menú de navegación.
+
+Hay varias secciones (home, about, services, contact) que muestran contenido sobre la empresa.
+
+Un botón que muestra un mensaje de alerta cuando se hace clic en él.
+
+CSS:
+
+Se aplica un estilo simple y limpio con colores suaves.
+
+El encabezado y pie de página tienen un fondo oscuro, mientras que las secciones tienen fondos más claros.
+
+El botón tiene un efecto hover que cambia el color al pasar el cursor sobre él.
+
+JavaScript:
+
+Se añade funcionalidad para mostrar una alerta al hacer clic en el botón dentro de la sección de bienvenida. -->
+    <header>
+        <div class="logo">
+            <h1>Empresa A</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Bienvenido a Empresa A</h2>
+        <p>Tu aliado en soluciones tecnológicas innovadoras.</p>
+        <button id="alertButton">Haz clic aquí</button>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Sobre Nosotros</h2>
+        <p>Empresa A es líder en el sector de soluciones tecnológicas, brindando servicios de calidad a nuestros clientes.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Servicios</h2>
+        <ul>
+            <li>Desarrollo Web</li>
+            <li>Consultoría Tecnológica</li>
+            <li>Soluciones de Software</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contacto</h2>
+        <p>Email: contacto@empresaA.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Empresa A. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
